@@ -173,6 +173,7 @@ a {
   }
 
   .icons {
+    width: 90%;
     justify-content: flex-end;
   }
 }
