@@ -146,22 +146,23 @@ a {
   }
   .main-right {
     height: 100%;
+    width: 50vw;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     /* justify-content: space-around; */
   }
   .main-right p {
     text-align: left;
-    font-size: 1.85em;
-    width: 800px;
+    font-size: 1.346em;
+    width: 99%;
     align-self: flex-start;
     line-height: 40px;
   }
 
   .main-right__title {
-    font-size: 4em;
+    font-size: 3em;
     text-align: left;
-    width: 800px;
+    width: 100%;
   }
 
   .main-right__button {
