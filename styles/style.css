@@ -1,0 +1,125 @@
+:root {
+  --font: 'Poppins', sans-serif;
+  --primary-color: hsl(257, 40%, 49%);
+}
+body {
+  background: var(--primary-color);
+  background-image: url('../images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  color: white;
+  font-family: var(--font);
+  font-weight: 400, 700;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  margin: 35px;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+main img {
+  width: 60%;
+  height: 60%;
+}
+
+.main__right {
+  align-self: center;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.main__right p {
+  font-size: 25px;
+}
+.main__right p {
+  margin-top: 30px;
+  width: 520px;
+}
+.main__right h1 {
+  font-size: 50px;
+  width: 560px;
+  text-align: left;
+}
+
+.main__right button {
+  border-radius: 40px;
+  font-size: 30px;
+  height: 60px;
+  width: 250px;
+  box-shadow: 5px 6px 16px black;
+  border: none;
+  color: var(--primary-color);
+}
+
+.main__right button:hover {
+  outline: none;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    0deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(247, 93, 202, 1) 100%
+  );
+  color: white;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: 0;
+    overflow: scroll;
+    background-image: url('../images/bg-mobile.svg');
+  }
+  main {
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .main__right {
+    align-self: center;
+    width: 90%;
+    margin-top: 5%;
+  }
+  header img {
+    width: 150px;
+  }
+  .main__right {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__right h1 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .main__right p {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  .main__right button {
+    align-self: center;
+    height: 41px;
+    width: 200px;
+    font-size: 20px;
+  }
+}
