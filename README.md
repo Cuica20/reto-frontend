@@ -14,6 +14,6 @@ Estás lista/o?
 ## Compartenos tu resultado
 
 1. Asegurate de tener tu reto terminado, súbelo a GitHub.
-2. Notificar por Linkedin la culminación del proyecot.
+2. Notificar por Linkedin la culminación del proyecto.
 
 **Diviértete y disfruta resolviendo esta prueba técnica !** 🚀
